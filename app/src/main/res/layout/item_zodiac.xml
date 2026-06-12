@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/zodiac_name_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Koç ♈"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/zodiac_symbol_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="♈"
+            android:textSize="12sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/zodiac_element_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Element: Ateş"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/zodiac_ruler_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yönetici: Mars"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/zodiac_personality_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kişilik"
+            android:textSize="11sp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/zodiac_dates_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tarihleri"
+            android:textSize="10sp"
+            android:textColor="#666" />
+
+    </LinearLayout>
+
+</CardView>
